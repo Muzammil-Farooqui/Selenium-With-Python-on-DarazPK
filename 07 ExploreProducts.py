@@ -28,6 +28,7 @@ def closeBrowser():
     time.sleep(3)
     driver.close()
 
+
 # def scrollDownPage(xpath):
 #     scrollDown = driver.find_element_by_xpath(xpath)
 #     driver.execute_script("arguments[0].scrollIntoView();", scrollDown)

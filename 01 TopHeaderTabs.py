@@ -29,7 +29,7 @@ def closeBrowser():
 
 if __name__=="__main__":
     getURL("https://www.daraz.pk/")
-    driver.find_element_by_xpath("/html/body/div[1]/div/div/div[1]/div/div/div[1]/div/div[2]/a").click()
+    driver.find_element_by_link_text("/html/body/div[1]/div/div/div[1]/div/div/div[1]/div/div[2]/a").click()
     closeBrowser()
 
 
